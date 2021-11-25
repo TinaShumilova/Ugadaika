@@ -90,16 +90,3 @@ Console.WriteLine($"Итак! Я загадываю число от {diap.minNum
 int findNum = CreateNumber(diap.minNum, diap.maxNum);
 lifes(findNum, count);
 
-
-/*int minNum = 1;
-int maxNum = 100;
-int result = CreateNumber(minNum, maxNum);
-if (result >= minNum && result <= maxNum)
-{
-    Console.WriteLine("верный метод");
-}
-else
-{
-    Console.WriteLine("ошибка");
-}
-*/
