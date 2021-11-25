@@ -88,7 +88,6 @@ Console.WriteLine($"Итак! Я загадываю число от {diap.minNum
                 + $" а у тебя есть {count} попыток это число отгадать");
 
 int findNum = CreateNumber(diap.minNum, diap.maxNum);
-Console.WriteLine(findNum);
 lifes(findNum, count);
 
 
